@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+   http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+    <servlet>
+        <servlet-name>LogsServlet</servlet-name>
+        <servlet-class>nz.ac.vuw.swen301.assignment3.server.LogsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogsServlet</servlet-name>
+        <url-pattern>/logs</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StatsServlet</servlet-name>
+        <servlet-class>nz.ac.vuw.swen301.assignment3.server.StatsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StatsServlet</servlet-name>
+        <url-pattern>/stats</url-pattern>
+    </servlet-mapping>
+
+</web-app>

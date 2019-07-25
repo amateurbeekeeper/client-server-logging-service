@@ -1,0 +1,15 @@
+NOTE: the stats excel file will be saved to the project folder
+
+Commands:
+To generate the executables:
+    mvn clean package 
+
+To run the Log Monitor:
+    cd target   
+    java -jar logmonitor.jar 
+
+To run the Random Log Generator:
+    cd target
+    java -jar random.jar 
+ 
+ 
